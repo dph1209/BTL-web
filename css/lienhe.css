@@ -1,0 +1,394 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Times New Roman", Times, serif;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+#menu {
+    width: 960px;
+    margin: 0 auto ;
+}
+header {
+    position: relative;
+    display: block;
+}
+.menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+nav{
+    width: 962px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d70018;
+    margin-top: 5px;
+}
+.bang li{
+    list-style: none;
+    padding: 6px 20px;
+    float: left;
+    line-height: 40px;
+    position: relative;
+    font-weight: bold;
+}
+.bang li a{
+    color: white;
+    text-decoration: none;
+}
+.bang li a:hover{
+    text-decoration: underline;
+}
+.bang li:hover .bang2 {
+    display: block;
+}
+.bang2{
+    border-radius: 5px;
+    list-style: none;
+    width: 250px;
+    position: absolute;
+    display: none;
+
+}
+.bang2 li {
+    background-color: #d70018;
+    text-align: left;
+    width: 250px;
+    list-style-position:inside ;
+}    
+#lienhe{
+    width:698px;
+    height: 35px;
+    font-weight: bold;
+    color: white;
+    background-color: #d70018;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    margin-top:20px;
+    margin-left: 4px;
+    padding-left: 20px;
+    padding-top: 9px;
+    margin-bottom: 25px;
+}
+article {
+    float: right;
+    width: 700px; 
+}
+
+.box {
+    width: 225px;
+    float: left;
+    border: 1px solid #333;
+    margin-left: 8px;
+    padding-bottom: 10px;
+    
+}
+.box a {
+    text-decoration: none;
+    color: #000;
+}
+.box a:hover{
+    color: blue;
+}
+
+.box p {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+aside {
+    float: right;
+    width: 260px;
+    
+}
+.menu1 {
+    padding-left: 30px;
+    background-color: #d70018;
+    border-radius: 10px;
+}
+h3 {
+    color: #FFF;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+#tuvan2{
+    padding-top: 10px;
+}
+.menu1 ul li a {
+    text-decoration: none;
+    color: #FFF;
+    line-height: 38px;
+}
+.menu1 ul li a:hover{
+    text-decoration: underline;
+}
+.menu2 {
+    background-color: #d70018;
+    border-radius: 10px;
+    height: 450px;
+}
+.menu2 p {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+footer {
+    clear: both;
+    display: block;
+}
+.chuchay1 {
+    background-color: #d70018;
+    color: #FFF;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px 
+}
+.ketthuc {
+    font-weight: bold;
+    font-size: 20px;
+}
+.ketthuc a{
+    text-decoration: none;
+}
+.ketthuc a:hover{
+    color: #d70018;
+}
+footer b {
+    text-transform: uppercase;
+    color: #808080;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer p {
+    font-style: italic;
+    color: #000;
+    font-weight: bold;
+}
+
+.box:hover img{
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+.lh{
+	font-weight:bold;
+}
+ul a{
+    text-decoration: none;
+    color: #d70018;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+.lh2{
+	color:#551aa8;
+}
+.lh3{
+	color:#808080;
+}
+.lh1{
+	color:#ff0000;
+}
+article ul li{
+	margin-left:40px;
+	margin-bottom:15px;
+	color:#d70018;
+}
+h2{
+	color:#808080;
+	text-align:center;
+	font-style:italic;
+}
+.h{
+	width:250px;
+	height:40px;
+	border-radius:10px;
+	border:2px solid #f42b5d;
+}
+.h1{
+	width:250px;
+	height:40px;
+	border-radius:10px;
+    border:2px solid #d70018;
+    margin-left: 2px;
+}
+.ha{
+	width:575px;
+	height:40px;
+	border-radius:10px;
+	border:2px solid #d70018;
+	}
+.hh{
+	border-radius:10px;
+	border:2px solid #d70018d;
+	}
+.hu{
+	padding:0 75px;
+}
+button{
+	background-color:#d70018;
+	color:white;
+	height:40px;    
+	width:110px;
+    border-radius:7px;
+    margin-bottom: 20px;
+}
+input{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+/* Phần chân */
+#footer{
+    position: relative;
+    height: 115px;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 2px solid #212529;
+    font-size: 20px;
+    background-color: #c2bdbd;
+}
+
+.fLeft {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+}
+
+.fLeft .Head{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fRight{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+.fRight ul li{
+    display: inline-block;
+}
+
+.fRight ul li a{
+    text-decoration: none;
+}
+.bang3 li{
+    list-style: none;
+    padding: 6px 20px;
+    float: left;
+    line-height: 40px;
+    position: relative;
+    font-weight: bold;
+}
+.bang3 li a{
+    color: white;
+    text-decoration: none;
+}
+.bang3 li a:hover{
+    text-decoration: underline;
+}
+.bang3 li:hover .bang4 {
+    display: block;
+}
+.bang4{
+
+    list-style: none;
+    width: 250px;
+    position: absolute;
+    display: none;
+
+}
+.bang4 li {
+    background-color: cornflowerblue;
+    text-align: left;
+    width: 250px;
+    list-style-position:inside ;
+
+}
+.bang5 li {
+    
+    text-align: left;
+    width: 200px;}
+.bang5{
+    justify-content: space-between;
+}
+.bang5{
+    display: none;
+}
+.bang4 li:hover .bang5 {
+    display: block;
+}
+#nav_header{
+    position: fixed;
+    height: 46px;
+    background-color: cornflowerblue;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.nav_bar{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#nav_header .log-in, .nav_bar>li{
+    display: inline-block;
+}
+
+#nav_header .log-in p{
+    display: inline-block;
+    height: 0px;
+    border-radius: 2px;
+}
+
+#nav_header .log-in p:hover{
+    background-color: #00FFFF;
+}
+
+.nav_bar>li>a{
+    color: #fff;
+}
+
+.nav_bar li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+.nav_bar>li:hover>a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav_header .log-in {
+    float: right;
+}
+
+#nav_header .log-in p>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav_header p{
+    line-height: 46px;
+    color: #fff;
+    padding: 0 16px;
+}
+
+#nav_header p span{
+    color:#000;
+}
